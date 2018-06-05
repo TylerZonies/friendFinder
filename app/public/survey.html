@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+        Survey
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+</head>
+<body>
+    <div class = "container">
+        <div class = "row">
+            <div class = "col l12 m12 s12">
+                <h1>The best survey ever</h1>
+            </div>
+        </div>
+
+        <form id = "questionArea">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input placeholder="Polenta Everlone" id="name" type="text" class="validate">
+                    <label for="first_name">Name</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input placeholder="Placeholder" id="imageURL" type="text" class="validate">
+                    <label for="first_name">Image URL</label>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="input-field col s12">
+                <p>1: How much do you like Wetzone?</p>
+                <select class = "1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label>Select</label>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="input-field col s12">
+                <p>2: How good is Jason at producing?</p>
+                <select class = "2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label>Select</label>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="input-field col s12">
+                <p>3: How good is Tyler at keys?</p>
+                <select class = "3">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label>Select</label>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="input-field col s12">
+                <p>4: How good is Patrick at vocals?</p>
+                <select class = "4">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label>Select</label>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="input-field col s12">
+                <p>5: How good are wetzones lyrics?</p>
+                <select class = "5">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label>Select</label>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="input-field col s12">
+                <p>6: How big should wetzone be?</p>
+                <select class = "6">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label>Select</label>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="input-field col s12">
+                <p>7: How much do you like cassets?</p>
+                <select class = "7">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label>Select</label>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="input-field col s12">
+                <p>8: What is your favorite form of physical media?</p>
+                <select class = "8">
+                    <option value="1">I dont like physical media</option>
+                    <option value="2">CD</option>
+                    <option value="3">VHS</option>
+                    <option value="4">Casset</option>
+                    <option value="5">Vinyl</option>
+                </select>
+                <label>Select</label>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="input-field col s12">
+                <p>9: What is your favorite Wetzone Album?</p>
+                <select class = "9">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label>Select</label>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="input-field col s12">
+                <p>10: How much do you like Wetzone?</p>
+                <select class = "0">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label>Select</label>
+                </div>
+            </div>
+            
+            <button type = "submit" class = "waves-effect waves-light btn" id = "submit">Submit</button>
+        </form>
+    </div>
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+   
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src = "/survey/js"></script>
+</body>
+</html>
